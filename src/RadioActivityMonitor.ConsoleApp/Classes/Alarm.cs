@@ -2,8 +2,9 @@ using RadioActivityMonitor.Interfaces;
 
 namespace RadioActivityMonitor.Classes
 {
-    public class Alarm(ISensor _sensor) : IAlarm
+    public class Alarm(ISensor? sensor = null) : IAlarm
     {
+        private readonly ISensor _sensor = sensor ?? new Sensor();
         const double _lowThreshold = 17;
         const double _highThreshold = 21;
         bool _isAlarmOn = false;

@@ -1,8 +1,7 @@
 ﻿using RadioActivityMonitor.Classes;
 using RadioActivityMonitor.Interfaces;
 
-ISensor sensor = new Sensor();
-IAlarm alarm = new Alarm(sensor);
+IAlarm alarm = new Alarm();
 
 Console.WriteLine("Monitoring started. Press Ctrl+C to exit.\n");
 
