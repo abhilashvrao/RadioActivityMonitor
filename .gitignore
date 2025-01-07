@@ -1,0 +1,31 @@
+# .NET Core
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vscode/
+.vs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.exe
+*.dll
+*.pdb
+*.config
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
